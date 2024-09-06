@@ -1,0 +1,9 @@
+version: 1.0
+components:
+  - name: selenium
+    type: selenium
+    config:
+      browser: chrome
+      headless: true
+requirements_file: requirements.txt
+entry_point: scraper.py
